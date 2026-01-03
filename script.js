@@ -26,10 +26,10 @@
 // console.log(tex4);
 
 // number and string auto convert
-let age = 23;
-let text = "Age is: " + age;
-console.log(text);
-console.log(typeof(text));
+// let age = 23;
+// let text = "Age is: " + age;
+// console.log(text);
+// console.log(typeof(text));
 
 
 // multiple value concaenate
@@ -41,4 +41,17 @@ let r = "total is = " +(a+b)
 console.log(result);
 console.log(r);
 
-// 
+//Using concate()Method;
+let text1 = "hello"
+let text2 = "world"
+let added = text1.concat(text2)
+console.log(added);
+// Template Literals (Best & Modern way ⭐)
+let name = "Asik";
+let age = 25;
+let text = `My name is ${name} and I am ${age} years old`
+console.log(text);
+// Real example (number → string + concatenate)
+let price = 750;
+let message = "Totla price: " + String(price) + " taka";
+console.log(message);
